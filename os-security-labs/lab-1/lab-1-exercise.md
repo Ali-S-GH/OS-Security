@@ -10,7 +10,7 @@ If you using VirtualBox and going to use **your personal internet** make sure yo
 
 You can also use **'Host-only Adapter'** if you going to use **university internet**
 
-<figure><img src="../../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../assets/image (50).png" alt=""><figcaption></figcaption></figure>
 
 ### Configuring the Virtual Machine Network:
 
