@@ -45,7 +45,7 @@ mkdir lab11
 ls -l
 ```
 
-<figure><img src="assets/image (250).png" alt="" width="398"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (250).png" alt="" width="398"><figcaption></figcaption></figure>
 
 > The directory `lab11` is now owned by **root**. You can confirm this with `ls -l`.
 
@@ -59,7 +59,7 @@ Switch back to a normal user, then add the new user.
 sudo adduser adam
 ```
 
-<figure><img src="assets/image (252).png" alt="" width="400"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (252).png" alt="" width="400"><figcaption></figcaption></figure>
 
 Follow the prompts to set a password and fill in the details (you can press Enter to skip optional fields).
 
@@ -98,7 +98,7 @@ cat /etc/group | grep cys311
 
 Expected output: `cys311:x:1006:adam`
 
-<figure><img src="assets/image (254).png" alt="" width="456"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (254).png" alt="" width="456"><figcaption></figcaption></figure>
 
 > Here `cys311` is the group name, `x` is the group password placeholder, `1006` is the Group ID (GID), and `adam` is the member.
 
@@ -113,7 +113,7 @@ chown -R :cys311 lab11
 ls -l
 ```
 
-<figure><img src="assets/Screenshot 2026-06-05 234017 (1).png" alt="" width="483"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2026-06-05 234017 (1).png" alt="" width="483"><figcaption></figcaption></figure>
 
 You should now see `cys311` as the group owner of `lab11`.
 
@@ -129,7 +129,7 @@ cd /home/kali/lab11
 touch file1
 ```
 
-<figure><img src="assets/Screenshot 2026-06-05 235050.png" alt="" width="509"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2026-06-05 235050.png" alt="" width="509"><figcaption></figcaption></figure>
 
 You will see:
 
@@ -150,9 +150,9 @@ su root
 getfacl lab11
 ```
 
-<figure><img src="assets/image (256).png" alt="" width="525"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (256).png" alt="" width="525"><figcaption></figcaption></figure>
 
-&#x20;The output will show the default Unix permissions with no extended ACL entries for `adam` yet.
+The output will show the default Unix permissions with no extended ACL entries for `adam` yet.
 
 > `getfacl` → check the current state of the ACL for a file or directory.
 
@@ -170,7 +170,7 @@ setfacl -m u:adam:rwx /home/kali/lab11
 >
 > * `-m` → modify the ACL
 > * `u:adam:rwx` → give user `adam` read, write, and execute permissions
-> * If it didn't work try :&#x20;
+> * If it didn't work try :
 
 ```bash
 setfacl -R -m u:adam:rwx /home/kali/lab11
@@ -189,7 +189,7 @@ touch file1
 ls -l
 ```
 
-<figure><img src="assets/image (257).png" alt="" width="465"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (257).png" alt="" width="465"><figcaption></figcaption></figure>
 
 This time it works. You can see `file1` listed with `adam` as the owner.
 
@@ -204,7 +204,7 @@ su root
 getfacl lab11
 ```
 
-<figure><img src="assets/image (258).png" alt="" width="425"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (258).png" alt="" width="425"><figcaption></figcaption></figure>
 
 ```
 user:adam:rwx
@@ -226,7 +226,7 @@ cd /home/kali/lab11
 touch file2
 ```
 
-<figure><img src="assets/image (259).png" alt="" width="518"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (259).png" alt="" width="518"><figcaption></figcaption></figure>
 
 You will see:
 
@@ -247,7 +247,7 @@ setfacl -x "adam" lab11
 getfacl lab11
 ```
 
-<figure><img src="assets/image (260).png" alt="" width="378"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (260).png" alt="" width="378"><figcaption></figcaption></figure>
 
 The `user:adam:rwx` line is now gone. Adam no longer has the extra permission.
 
@@ -259,7 +259,7 @@ cd /home/kali/lab11
 touch file3
 ```
 
-<figure><img src="assets/image (261).png" alt="" width="323"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (261).png" alt="" width="323"><figcaption></figcaption></figure>
 
 <pre><code><strong>touch: cannot touch 'file3': Permission denied
 </strong></code></pre>
@@ -275,7 +275,7 @@ setfacl -b lab11
 getfacl lab11
 ```
 
-<figure><img src="assets/image (262).png" alt="" width="431"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (262).png" alt="" width="431"><figcaption></figcaption></figure>
 
 **Before removing all ACL:**
 

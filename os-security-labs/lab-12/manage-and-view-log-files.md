@@ -14,8 +14,6 @@ cd /var/log
 ls -l
 ```
 
-<figure><img src="../../.gitbook/assets/image (263).png" alt="" width="468"><figcaption></figcaption></figure>
-
 This lists all the log files stored on the system. You will see files like `wtmp`, `btmp`, `auth.log`, `boot.log`, `kern.log`, and many others.
 
 ***
@@ -48,8 +46,6 @@ Here are some important log files you will find under `/var/log`:
 cat wtmp
 ```
 
-<p align="center"><img src="../../.gitbook/assets/image (264).png" alt="" data-size="original"></p>
-
 You will see random unreadable characters. This is because `wtmp` is a binary file and `cat` cannot display it properly.
 
 ***
@@ -61,8 +57,6 @@ The `last` command reads `wtmp` and shows the login history in a readable format
 ```bash
 last
 ```
-
-<p align="center"><img src="../../.gitbook/assets/image (265).png" alt=""></p>
 
 > `last` → reads from `/var/log/wtmp` and shows who logged in, when, and for how long.
 
@@ -92,15 +86,11 @@ last -a
 
 This shows all logins with the hostname displayed in the last column.
 
-<p align="center"><img src="../../.gitbook/assets/image (266).png" alt=""></p>
-
 To see all available options for `last`:
 
 ```bash
 last --help
 ```
-
-<p align="center"><img src="../../.gitbook/assets/image (267).png" alt=""></p>
 
 > **Useful `last` flags:**
 >
@@ -129,8 +119,6 @@ This shows all users currently logged in to the system. It reads its values from
 last reboot
 ```
 
-<figure><img src="../../.gitbook/assets/image (268).png" alt="" width="468"><figcaption></figcaption></figure>
-
 This shows every time the system was rebooted.
 
 ***
@@ -144,15 +132,11 @@ apt update
 apt install lastlog2
 ```
 
-<p align="center"><img src="../../.gitbook/assets/image (269).png" alt=""></p>
-
 Then run it:
 
 ```bash
 lastlog2
 ```
-
-<p align="center"><img src="../../.gitbook/assets/image (270).png" alt=""></p>
 
 This shows each user account, the terminal they used, and the exact date and time of their most recent login.
 
@@ -166,15 +150,11 @@ Read the last few lines of `boot.log` to see the most recent boot events:
 tail boot.log
 ```
 
-<p align="center"><img src="../../.gitbook/assets/image (273).png" alt=""></p>
-
 To see the entire boot log:
 
 ```bash
 cat boot.log
 ```
-
-<figure><img src="../../.gitbook/assets/image (279).png" alt="" width="416"><figcaption></figcaption></figure>
 
 ***
 
@@ -190,8 +170,6 @@ This saves all kernel messages into a file called `boot.dmesg1` in your home dir
 cat ~/boot.dmesg1
 ```
 
-<p align="center"><img src="../../.gitbook/assets/image (272).png" alt=""></p>
-
 ***
 
 #### Step 10 — View Logs Using journalctl
@@ -202,15 +180,11 @@ The `journalctl` command reads logs from the **systemd journal** — the modern 
 journalctl
 ```
 
-<figure><img src="../../.gitbook/assets/image (274).png" alt="" width="468"><figcaption></figcaption></figure>
-
 To follow new log entries in real time:
 
 ```bash
 journalctl -f
 ```
-
-<p align="center"><img src="../../.gitbook/assets/image (275).png" alt=""></p>
 
 Press `Ctrl + C` to stop following.
 

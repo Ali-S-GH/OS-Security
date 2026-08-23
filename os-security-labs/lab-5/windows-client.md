@@ -1,11 +1,10 @@
----
-
-description: >-
-Note : the downloading and setup will take long time make sure you do it
-before your class
------------------
-
 # Windows Client
+
+***
+
+### description: >- Note : the downloading and setup will take long time make sure you do it before your class
+
+## Windows Client
 
 {% hint style="info" %}
 **Note: It is recommended to use your Instructor ISO image. The one I shared may not work properly or could expire later.**
@@ -13,31 +12,31 @@ before your class
 
 <details>
 
-<summary>Windows 10 Pro: </summary>
+<summary>Windows 10 Pro:</summary>
 
 [Link:](https://www.microsoft.com/en-us/software-download/windows10)
 
-Product key : 
+Product key :
 
 ```
 RHGJR-N7FVY-Q3B8F-KBQ6V-46YP4
 ```
 
-After installing the **MediaCreationTool_22H2** make sure you select the <mark style="color:$danger;">ISO file</mark>
+After installing the **MediaCreationTool\_22H2** make sure you select the <mark style="color:$danger;">ISO file</mark>
 
-<div><figure><img src="../assets/image (64).png" alt=""><figcaption></figcaption></figure> <figure><img src="../assets/image (65).png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (65).png" alt=""><figcaption></figcaption></figure></div>
 
 When you going creating New VM in VirtualBox make sure you turn off "**Proceed with Unattended Installation"**
 
-<figure><img src="../assets/image (66).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (66).png" alt=""><figcaption></figcaption></figure>
 
 If the **product key** somehow didn't work you can select **"I don't have a product key"** both way will work with or without product key
 
-<div><figure><img src="../assets/image (67).png" alt=""><figcaption></figcaption></figure> <figure><img src="../assets/image (68).png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/image (67).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (68).png" alt=""><figcaption></figcaption></figure></div>
 
 To make sure the you got the pro edition: search this PC and go to Properties
 
-<div><figure><img src="../assets/image (70).png" alt=""><figcaption></figcaption></figure> <figure><img src="../assets/image (71).png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/image (70).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (71).png" alt=""><figcaption></figcaption></figure></div>
 
 </details>
 
@@ -45,11 +44,11 @@ To make sure the you got the pro edition: search this PC and go to Properties
 
 <summary>Windows XP</summary>
 
-[Link: ](https://archive.org/details/WinXPProSP3x86)
+[Link:](https://archive.org/details/WinXPProSP3x86)
 
-<figure><img src="../assets/image (29) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (29) (1).png" alt=""><figcaption></figcaption></figure>
 
-Product Key: 
+Product Key:
 
 {% hint style="info" %}
 note: this Product key only work with **Windows XP Professional SP3 x86**
@@ -59,11 +58,11 @@ note: this Product key only work with **Windows XP Professional SP3 x86**
 MRX3F-47B9T-2487J-KWKMF-RPWBY
 ```
 
-Paste the Product key and make sure you don't forget the password 
+Paste the Product key and make sure you don't forget the password
 
-[[How store my password?]](../lab-4/pre-installation-preparation.md#id-2.1-how-to-save-your-password)
+[\[How store my password?\]](../lab-4/pre-installation-preparation.md#id-2.1-how-to-save-your-password)
 
-<figure><img src="../assets/image (30) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (30) (1).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
@@ -73,11 +72,11 @@ Paste the Product key and make sure you don't forget the password
 
 [Link:](https://archive.org/details/windows-7-sp0-sp1-msdn-iso-files-en-de-ru-tr-x86-x64)
 
-<figure><img src="../assets/image (86).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (86).png" alt=""><figcaption></figcaption></figure>
 
 If the activation message appears (usually after one month), click **Ask me later**.
 
-<figure><img src="../assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Then open **Command Prompt (CMD)** as **Administrator** and run:
 
