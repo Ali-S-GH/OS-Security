@@ -12,7 +12,7 @@ groups      # shows your groups
 who         # shows who is logged in
 ```
 
-***
+---
 
 ### Permission Groups
 
@@ -22,9 +22,9 @@ Each file has 3 permission groups:
 * **group** → users in the assigned group
 * **others** → everyone else
 
-<figure><img src="../../.gitbook/assets/image (204).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../assets/image (204).png" alt=""><figcaption></figcaption></figure>
 
-***
+---
 
 ### Permission Types
 
@@ -49,7 +49,7 @@ The 9 characters after the first `-` or `d` are the permissions:
 * Middle 3 → **group**
 * Last 3 → **others**
 
-***
+---
 
 ### Lab Exercise
 
@@ -61,9 +61,9 @@ touch testfile
 ls
 ```
 
-<p align="center"><img src="../../.gitbook/assets/image (1) (1).png" alt=""></p>
+<p align="center"><img src="../assets/image (1) (1).png" alt=""></p>
 
-***
+---
 
 #### Step 2 — View Permissions
 
@@ -71,11 +71,11 @@ ls
 ls -lh
 ```
 
-<p align="center"><img src="../../.gitbook/assets/image (2) (1).png" alt=""></p>
+<p align="center"><img src="../assets/image (2) (1).png" alt=""></p>
 
 > The first character tells you if it's a **directory (d)** or a **file (-)**.
 
-***
+---
 
 #### Step 3 — Change Permissions with `chmod`
 
@@ -86,7 +86,7 @@ chmod +x testfile
 ls -lh
 ```
 
-<p align="center"><img src="../../.gitbook/assets/image (3) (1).png" alt=""></p>
+<p align="center"><img src="../assets/image (3) (1).png" alt=""></p>
 
 **Remove execute from everyone:**
 
@@ -95,7 +95,7 @@ chmod -x testfile
 ls -lh
 ```
 
-<p align="center"><img src="../../.gitbook/assets/image (4).png" alt=""></p>
+<p align="center"><img src="../assets/image (4).png" alt=""></p>
 
 **Add execute for owner only:**
 
@@ -120,7 +120,7 @@ chmod u+r,g+x testfile
 > * `u` → owner, `g` → group, `o` → others, `a` → all
 > * `+` → add, `-` → remove
 
-***
+---
 
 #### Step 4 — Set Permissions Using Numbers
 
@@ -138,7 +138,7 @@ chmod 740 testfile
 ls -lh
 ```
 
-<p align="center"><img src="../../.gitbook/assets/image (5).png" alt=""></p>
+<p align="center"><img src="../assets/image (5).png" alt=""></p>
 
 ```bash
 # Full permissions for everyone
@@ -146,9 +146,10 @@ chmod 777 testfile
 ls -lh
 ```
 
-<p align="center"><br><img src="../../.gitbook/assets/image (6).png" alt=""></p>
+<p align="center">
+<br><img src="../assets/image (6).png" alt=""></p>
 
-***
+---
 
 #### Step 5 — Copy Permissions from Another File
 
@@ -157,9 +158,9 @@ chmod --reference=testfile testfile2
 ls -lh
 ```
 
-<p align="center"><img src="../../.gitbook/assets/image (7).png" alt=""></p>
+<p align="center"><img src="../assets/image (7).png" alt=""></p>
 
-***
+---
 
 #### Step 6 — Apply Permissions Recursively
 
@@ -168,9 +169,9 @@ chmod -R g+r TEST
 ls -lh
 ```
 
-<p align="center"><img src="../../.gitbook/assets/image (8).png" alt=""></p>
+<p align="center"><img src="../assets/image (8).png" alt=""></p>
 
-***
+---
 
 #### Step 7 — Change Ownership with `chown`
 
@@ -180,7 +181,7 @@ First, add a new user:
 sudo adduser ahmed
 ```
 
-<p align="center"><img src="../../.gitbook/assets/image (9).png" alt=""></p>
+<p align="center"><img src="../assets/image (9).png" alt=""></p>
 
 Now change the owner of a file:
 
@@ -189,11 +190,11 @@ sudo chown ahmed file1.txt
 ls -l file1.txt
 ```
 
-<p align="center"><img src="../../.gitbook/assets/image (10).png" alt=""></p>
+<p align="center"><img src="../assets/image (10).png" alt=""></p>
 
 > **Note:** Only **root** can change file ownership.
 
-***
+---
 
 #### Step 8 — Change Group with `chgrp`
 
@@ -203,9 +204,9 @@ sudo chown :group2 file1.txt
 ls -l file1.txt
 ```
 
-<p align="center"><img src="../../.gitbook/assets/image (203).png" alt=""></p>
+<p align="center"><img src="../assets/image (203).png" alt=""></p>
 
-***
+---
 
 ### Assessment
 
