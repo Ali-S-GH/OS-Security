@@ -1,6 +1,6 @@
 ---
-
-## description: Installing windows server & Setting up the domain controller
+description: Installing windows server & Setting up the domain controller
+---
 
 # Pre-Installation Preparation
 
@@ -15,6 +15,7 @@
 {% endhint %}
 
 #### Product Keys :
+
 
 ```
 H79BP-N24TR-MMRWX-9242F-8B3WM
