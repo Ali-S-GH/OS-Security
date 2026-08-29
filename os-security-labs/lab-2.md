@@ -75,7 +75,7 @@ Don't change anything here :<br>
 
 <figure><img src="../.gitbook/assets/image (173).png" alt=""><figcaption></figcaption></figure>
 
-First we will add Host (I will using [Metasploitable 2](https://sourceforge.net/projects/metasploitable/))
+First we will add Host (I will using [Metasploitable 2](https://drive.google.com/drive/folders/1X6E-sCdeSJpXp50Ry01fegEkKUmiPE4p?usp=sharing))
 
 <div><figure><img src="../.gitbook/assets/image (176).png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image (184).png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image (183).png" alt=""><figcaption></figcaption></figure></div>
 

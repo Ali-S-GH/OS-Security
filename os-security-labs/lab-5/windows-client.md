@@ -44,7 +44,8 @@ To make sure the you got the pro edition: search this PC and go to Properties
 
 <summary>Windows XP</summary>
 
-[Link:](https://archive.org/details/WinXPProSP3x86)
+[Link:](https://archive.org/details/WinXPProSP3x86)\
+[My drive Link:](https://drive.google.com/drive/folders/1X6E-sCdeSJpXp50Ry01fegEkKUmiPE4p?usp=sharing)
 
 <figure><img src="../../.gitbook/assets/image (29) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -71,6 +72,8 @@ Paste the Product key and make sure you don't forget the password
 <summary>Windows 7</summary>
 
 [Link:](https://archive.org/details/windows-7-sp0-sp1-msdn-iso-files-en-de-ru-tr-x86-x64)
+
+[My drive Link:](https://drive.google.com/drive/folders/1X6E-sCdeSJpXp50Ry01fegEkKUmiPE4p?usp=sharing)
 
 <figure><img src="../../.gitbook/assets/image (86).png" alt=""><figcaption></figcaption></figure>
 
