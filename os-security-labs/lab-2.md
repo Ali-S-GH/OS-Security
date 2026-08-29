@@ -108,6 +108,25 @@ As we can see here, we can interact with the shell to control the target device.
 
 <figure><img src="../.gitbook/assets/image (193).png" alt=""><figcaption></figcaption></figure>
 
+### **1.2 - Common Error witrh armitage&#x20;**_**Find Attacks**_
+
+If you have an issue with the OS scan or the “Find Attacks” option, try the manual method:
+
+Right-click the **Computer** icon → **Host** → **Operating System**. Then, choose the operating system of the machine you are trying to attack. In our case,\
+&#x20;**Metasploitable 2** is running **Linux**.
+
+<div align="center"><figure><img src="../.gitbook/assets/image.png" alt="" width="357"><figcaption></figcaption></figure></div>
+
+For the attack, after running the Nmap scan, open the **Exploits** folder and go to **Unix** if you are using **Metasploitable 2** as the target device. Then, choose the exploit you want to use.
+
+<div><figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure></div>
+
+**After clicking “Launch,” click on the device → Shell 1 → Interact.**
+
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+***
+
 #### **2 - Penetration Testing with Metasploit Rationale**
 
 Start by making sure that both devices are on the same network.
