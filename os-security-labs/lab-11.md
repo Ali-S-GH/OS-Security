@@ -75,14 +75,14 @@ You should see `adam` listed alongside other users.
 
 #### Step 5 — Create a Group and Add Adam to It
 
-Create a group called `cys504` and add `adam` to it.
+Create a group called `cys311` and add `adam` to it.
 
 ```bash
 sudo addgroup cys311
 sudo usermod -aG cys311 adam
 ```
 
-Verify that `adam` is now part of `cys504`:
+Verify that `adam` is now part of cys311:
 
 ```bash
 groups adam
