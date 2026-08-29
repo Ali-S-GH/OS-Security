@@ -189,6 +189,8 @@ If the system installation process freezes, try repeating the installation witho
 
 [Link:](https://sourceforge.net/projects/metasploitable/)
 
+[My drive Link:](https://drive.google.com/drive/folders/1X6E-sCdeSJpXp50Ry01fegEkKUmiPE4p?usp=sharing)
+
 Click the download icon to start downloading the file.
 
 <figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
