@@ -70,7 +70,7 @@ in the server I make this text file with this content
 
 I make new user and add it to NetAdmin group that they have permissions for read only and I try to change the text :
 
-<div><figure><img src="../../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/image (15) (1) (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (16) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 ### Additional way for Windows 10
 

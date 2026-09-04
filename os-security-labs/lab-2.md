@@ -115,15 +115,15 @@ If you have an issue with the OS scan or the “Find Attacks” option, try the 
 Right-click the **Computer** icon → **Host** → **Operating System**. Then, choose the operating system of the machine you are trying to attack. In our case,\
 &#x20;**Metasploitable 2** is running **Linux**.
 
-<div align="center"><figure><img src="../.gitbook/assets/image.png" alt="" width="357"><figcaption></figcaption></figure></div>
+<div align="center"><figure><img src="../.gitbook/assets/image (42).png" alt="" width="357"><figcaption></figcaption></figure></div>
 
 For the attack, after running the Nmap scan, open the **Exploits** folder and go to **Unix** if you are using **Metasploitable 2** as the target device. Then, choose the exploit you want to use.
 
-<div><figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure></div>
 
 **After clicking “Launch,” click on the device → Shell 1 → Interact.**
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
 
 ***
 

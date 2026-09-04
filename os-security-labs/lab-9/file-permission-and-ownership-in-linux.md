@@ -95,7 +95,7 @@ chmod -x testfile
 ls -lh
 ```
 
-<div align="center"><img src="../../.gitbook/assets/image (4).png" alt=""></div>
+<div align="center"><img src="../../.gitbook/assets/image (4) (1).png" alt=""></div>
 
 **Add execute for owner only:**
 
@@ -138,7 +138,7 @@ chmod 740 testfile
 ls -lh
 ```
 
-<div align="center"><img src="../../.gitbook/assets/image (5).png" alt=""></div>
+<div align="center"><img src="../../.gitbook/assets/image (5) (2).png" alt=""></div>
 
 ```bash
 # Full permissions for everyone
@@ -146,7 +146,7 @@ chmod 777 testfile
 ls -lh
 ```
 
-<p align="center"><br><img src="../../.gitbook/assets/image (6).png" alt=""></p>
+<p align="center"><br><img src="../../.gitbook/assets/image (6) (1).png" alt=""></p>
 
 ***
 
@@ -157,7 +157,7 @@ chmod --reference=testfile testfile2
 ls -lh
 ```
 
-<div align="center"><img src="../../.gitbook/assets/image (7).png" alt=""></div>
+<div align="center"><img src="../../.gitbook/assets/image (7) (2).png" alt=""></div>
 
 ***
 
@@ -168,7 +168,7 @@ chmod -R g+r TEST
 ls -lh
 ```
 
-<div align="center"><img src="../../.gitbook/assets/image (8).png" alt=""></div>
+<div align="center"><img src="../../.gitbook/assets/image (8) (2).png" alt=""></div>
 
 ***
 
@@ -180,7 +180,7 @@ First, add a new user:
 sudo adduser ahmed
 ```
 
-<div align="center"><img src="../../.gitbook/assets/image (9).png" alt=""></div>
+<div align="center"><img src="../../.gitbook/assets/image (9) (1).png" alt=""></div>
 
 Now change the owner of a file:
 
@@ -189,7 +189,7 @@ sudo chown ahmed file1.txt
 ls -l file1.txt
 ```
 
-<div align="center"><img src="../../.gitbook/assets/image (10).png" alt=""></div>
+<div align="center"><img src="../../.gitbook/assets/image (10) (2).png" alt=""></div>
 
 > **Note:** Only **root** can change file ownership.
 

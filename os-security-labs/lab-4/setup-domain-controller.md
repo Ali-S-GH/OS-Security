@@ -34,11 +34,11 @@ Setup a password and as I mentioned before try to [store](pre-installation-prepa
 
 <figure><img src="../../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
 
-<div><figure><img src="../../.gitbook/assets/image (32) (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (33) (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (34) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/image (32) (1) (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (33) (1) (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (34) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Make sure you got the same script to void any errors
 
-<figure><img src="../../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (35) (1).png" alt=""><figcaption></figcaption></figure>
 
 <details>
 

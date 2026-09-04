@@ -70,7 +70,7 @@ Then go to Network Adapter -> Select Custom and choose the same network number y
 
 **Before starting, make sure both machines are connected to the same network and can communicate with each other. Use commands such as `ip a` or `ifconfig` to identify the IP address of each machine, then use the `ping` command to verify connectivity between them.**
 
-<figure><img src="../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (27) (1).png" alt=""><figcaption></figcaption></figure>
 
 1- Send a flag between two machines using Netcat :
 
@@ -78,7 +78,7 @@ open kali Linux and click on the kali icon and search for Wireshark
 
 Choose **"eth0"** and press Enter
 
-<div><figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/image (29) (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (30) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Now go back and open terminal in the other machine and run:
 
@@ -99,11 +99,11 @@ Note: Flag meanings in the **Netcat command**
 * **-l** → set **listen mode** (wait for incoming connection)
 * **-v** → enable **verbose mode** (show connection details)
 
-<figure><img src="../../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (28) (1).png" alt=""><figcaption></figcaption></figure>
 
 as you can see here Whireshark catch the messages
 
-<figure><img src="../../.gitbook/assets/image (32).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (32) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 To save the **received** message into a file use:
 
@@ -116,7 +116,7 @@ To save the **received** message into a file use:
 * **Kali ⇒ Ubuntu ❌** (will not be saved)
 * **Ubuntu ⇒ Kali ✅** (will be saved)
 
-<figure><img src="../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (33) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2- Scan using Nmap capture it in Kali VM
 
@@ -124,7 +124,7 @@ First step,open kali Linux and click on the kali icon and search for Wireshark
 
 Choose **"eth0"** and press Enter
 
-<div><figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/image (29) (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (30) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Second step, open the terminal in the host machine and run the **Nmap** command to scan the target machine:
 

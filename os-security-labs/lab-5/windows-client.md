@@ -47,7 +47,7 @@ To make sure the you got the pro edition: search this PC and go to Properties
 [Link:](https://archive.org/details/WinXPProSP3x86)\
 [My drive Link:](https://drive.google.com/drive/folders/1X6E-sCdeSJpXp50Ry01fegEkKUmiPE4p?usp=sharing)
 
-<figure><img src="../../.gitbook/assets/image (29) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (29) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Product Key:
 
@@ -63,7 +63,7 @@ Paste the Product key and make sure you don't forget the password
 
 [\[How store my password?\]](../lab-4/pre-installation-preparation.md#id-2.1-how-to-save-your-password)
 
-<figure><img src="../../.gitbook/assets/image (30) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (30) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 

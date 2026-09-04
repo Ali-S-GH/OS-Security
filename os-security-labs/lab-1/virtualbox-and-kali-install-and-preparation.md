@@ -10,7 +10,7 @@ description: Installing VirtualBox & Kali Linux and Ubuntu
 
 **Choose the platform packages for your OS.**
 
-<figure><img src="../../.gitbook/assets/image (34).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (34) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Make sure you selected **"VirtualBox Application".**
 
@@ -155,23 +155,23 @@ Choose **"Use wired connection"**
 
 You can skip the Update if you want
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (2).png" alt=""><figcaption></figcaption></figure>
 
 Choose **"Install Ubuntu"** then select **"Interactive installation"**
 
-<div><figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 You can choose **"Extended Selection"** if needed, but we will proceed with the default option.
 
-<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
 
 Make sure you check Install third-party software for graphics and Wi-fi hardware to avoid errors
 
-<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
 
 Choose **"Erase disk and install Ubuntu"** (won't erase your disk, don't worry)
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
 
 After setting your username and selecting the time zone, click "Install" to start the installation process when you should restart the machine.
 
@@ -179,7 +179,7 @@ After setting your username and selecting the time zone, click "Install" to star
 
 If the system installation process freezes, try repeating the installation without an internet connection. This usually resolves the issue.
 
-<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (20) (1).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
@@ -193,11 +193,11 @@ If the system installation process freezes, try repeating the installation witho
 
 Click the download icon to start downloading the file.
 
-<figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (21) (1).png" alt=""><figcaption></figcaption></figure>
 
 After extracting the compressed file, you will find two files inside the folder: a **.vmdk** file
 
-<figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (22) (1).png" alt=""><figcaption></figcaption></figure>
 
 Open VirtualBox and import the Metasploitable 2 virtual machine
 
@@ -211,18 +211,18 @@ Click on Machines ⇒ New
 * **OS Distribution:** **Ubuntu**
 * **OS Version:** **Ubuntu** (64-bit)
 
-<figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (23) (1).png" alt=""><figcaption></figcaption></figure>
 
 **For specifying virtual hardware:**
 
 * **Base Memory (RAM):** 1 GB is enough.
 * **Number of CPUs:** 1 CPUs are enough.
 
-<figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (24) (1).png" alt=""><figcaption></figcaption></figure>
 
 **2 GB should be enough as disk size.**
 
-<figure><img src="../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (25) (1).png" alt=""><figcaption></figcaption></figure>
 
 After you finish , right click on your machine and press settings.
 
@@ -232,11 +232,11 @@ Now go to Storage ⇒ Controller: IDE then press this icon.
 
 Select **"Add"**, then navigate to the folder where you extracted the compressed file and select the **.vmdk** file.
 
-<figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (22) (1).png" alt=""><figcaption></figcaption></figure>
 
 After starting the virtual machine, log in using the username `msfadmin` and the password `msfadmin`.
 
-<figure><img src="../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (26) (1).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
